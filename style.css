@@ -142,7 +142,8 @@ a {
     color: rgb(255, 255, 255);
     margin-left: 45%;
     margin-top: -10px;
-border-bottom-width: 5px;}
+    border-bottom-width: 5px;
+}
 
 .footer {
     font-size: 20px;
