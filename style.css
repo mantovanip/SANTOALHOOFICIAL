@@ -11,7 +11,7 @@ body {
 }
 
 * {
-    font-family: "Raleway";
+    font-family: "Roboto";
     box-sizing: border-box;
 }
 
@@ -118,7 +118,7 @@ a {
 .btn {
     background: #000000;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 17px;
     text-decoration: none;
     vertical-align: middle;
     flex: 1 150px;
@@ -156,7 +156,7 @@ a {
 .footer {
     transform: translate(435%, -150%);
     height: 32px;
-}
+    position: fixed;}
 
 .footertxt {
 
@@ -184,6 +184,69 @@ body::-webkit-scrollbar-thumb {
     /* creates padding around scroll thumb */
 }
 
+
+/* SOBRE CSS */
+
+#sobre {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 100px;
+    text-align: center;
+    display: flex;
+    position: relative;
+
+}
+
+/* fotos proprietarios */
+
+#propietarios {
+    transform: translate(3%, -12%);
+    height: 550px;
+    width: 450px;
+    filter: drop-shadow(9px 10px 4px rgba(0, 0, 0, 0.25));
+    background: url(/img/propietarios.jpg) no-repeat;
+    border-radius: 40px;
+    position: relative;
+
+}
+
+#retanguloprop {
+    transform: translate(7%, -8%);
+    height: 550px;
+    width: 450px;
+    border-radius: 50px;
+    border: 4px solid #E85910;
+    box-shadow: 9px 10px 4px 0px #00000040;
+    border-radius: 50px;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+ol {
+    list-style: none;
+
+}
+
+li p {
+    font-size: 1.2vh;
+    color: rgb(255, 255, 255);
+    padding: 0 30px 0 35px;
+    line-height: 2px;
+
+}
+
+.historia {
+    font-size: 25px;
+    line-height: 42px;
+    text-align: center;
+
+}
+
+#nossaHistoria {
+    color: #ffffff;
+    font-size: 5vw;
+    margin: 0 !important;
+    text-align: center;
+}
 
 
 @media (max-width: 768px) {
@@ -273,5 +336,47 @@ body::-webkit-scrollbar-thumb {
 
     .footer {
         transform: translate(80%, -595%);
+    }
+    
+    /* SOBRE */
+
+
+
+    .sobre {
+        margin-top: 80px;
+        float: left;
+        margin: bottom 0;
+        font-size: 10px;
+    }
+
+    #propietarios {
+        background-size: cover;
+        max-width: 340px;
+        max-height: 460px;
+        transform: translate(-23%, 10%);
+    }
+
+    #retanguloprop {
+        width: 340px;
+        height: 460px;
+        transform: translate(-18%, 15%);
+    }
+
+    #nossaHistoria {
+        transform: translate(-160%, -95%);
+        text-align: center;
+        line-height: normal;
+        font-size: 45px;
+    }
+
+    .historia {
+        padding: 0;
+        margin: 0;
+        height: 900px;
+        font-size: 25px;
+        transform: translate(-155%, 50%);
+        text-align: center;
+        line-height: normal;
+
     }
 }
