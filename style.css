@@ -122,7 +122,7 @@ a {
     text-decoration: none;
     vertical-align: middle;
     flex: 1 150px;
-    text-indent: 25px;
+    text-indent: 35px;
     color: rgb(255, 255, 255);
     display: flex;
     margin: 0 70px;
@@ -192,7 +192,7 @@ body::-webkit-scrollbar-thumb {
         vertical-align: bottom;
         display: flex;
         margin: 5px 77px;
-        text-indent: 30px;
+        text-indent: 40px;
         max-width: 250px;
         transform: translate(0, -880%);
     }
@@ -251,6 +251,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .menu>li {
+        position: relative;
         display: flex;
         justify-content: center;
         margin: 0;
