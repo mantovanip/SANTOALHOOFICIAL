@@ -160,7 +160,7 @@ a {
 
 .footertxt {
 
-    margin-left: 420px;
+    margin-left: 440px;
     margin-top: -10px;
 }
 
@@ -251,7 +251,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .menu>li {
-        position: relative;
+        
         display: flex;
         justify-content: center;
         margin: 0;
