@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     background: black;
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #FFF;
@@ -97,14 +97,23 @@ a {
     transform: rotate(-405deg);
 }
 
+.imglocal {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border: 50px solid black;
+
+}
+
 /* BOTOES */
 
 .container {
     display: flex;
     flex-wrap: wrap;
 }
-
-
 
 .btn {
     background: #000000;
@@ -120,6 +129,8 @@ a {
     line-height: 45px;
     transform: translate(-2%, -300%);
     position: relative;
+    cursor: pointer;
+
 
 }
 
@@ -139,16 +150,17 @@ a {
     flex-direction: row;
     color: rgb(255, 255, 255);
     margin-top: 30px;
-    transform: translate(45%,-200%);
+    transform: translate(45%, -200%);
 }
 
 .footer {
-    transform: translate(435%,-150%);
+    transform: translate(435%, -150%);
     height: 32px;
 }
-.footertxt{
-    
-    margin-left:420px; 
+
+.footertxt {
+
+    margin-left: 420px;
     margin-top: -10px;
 }
 
@@ -182,20 +194,28 @@ body::-webkit-scrollbar-thumb {
         margin: 5px 77px;
         text-indent: 30px;
         max-width: 250px;
-        cursor: pointer;
+        transform: translate(0, -880%);
     }
-
 
     .top-nav {
         height: 70px;
     }
 
     .logo {
-        width: 35vh;
-        transform: translate(13%, 50%);
-
+        width: 25vh;
+        transform: translate(13%, 90%);
     }
 
+    .imglocal {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        object-fit: cover;
+        object-position: 50% 50%;
+        border: 0;
+    
+    }
     .menu-button-container {
         display: flex;
     }
@@ -242,4 +262,11 @@ body::-webkit-scrollbar-thumb {
     .menu>li:not(:last-child) {
         border-bottom: 1px solid #444;
     }
+   #banner{
+    display: none;
+   }
+   .footer{
+    margin: 0;
+    transform: translate(80%,-595%);
+   }
 }
