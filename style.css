@@ -111,7 +111,7 @@ a {
 /* BOTOES */
 
 .container {
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap;
 }
 
@@ -187,6 +187,7 @@ body::-webkit-scrollbar-thumb {
 
 
 @media (max-width: 768px) {
+   
     .btn {
         position: relative;
         vertical-align: bottom;
@@ -196,7 +197,11 @@ body::-webkit-scrollbar-thumb {
         max-width: 250px;
         transform: translate(0, -880%);
     }
-
+    .container {
+        position:relative ;
+        display: inline;
+        flex-wrap: wrap;
+    }
     .top-nav {
         height: 70px;
     }
@@ -222,6 +227,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .menu {
+        box-sizing: border-box;
         position: absolute;
         top: 0;
         margin-top: 70px;
