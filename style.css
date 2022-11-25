@@ -46,7 +46,7 @@ a {
 .menu2:hover,
 .menu3:hover,
 .menu4:hover {
-    border-bottom: 1px solid #E85910;
+   color: #E85910;
 }
 
 .menu>li {
