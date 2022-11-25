@@ -19,18 +19,14 @@ body {
 
 /* BARRA NAV */
 .top-nav {
-    height: 110px;
+    height: 75px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     background: black;
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #FFF;
-   
-    padding: 1em;
     text-decoration: none;
-    text-align: left;
 }
 
 /* MENU HAMBURGUER */
@@ -43,12 +39,22 @@ a {
     padding: 0;
     color: #ffff;
     text-decoration: none;
+    font-size: 1.4rem;
 }
 
-.menu1:hover,
+.menu1 {
+    color: #E85910;
+}
+
+.menu1:hover {
+    color: #ffffff;
+}
+
+
 .menu2:hover,
 .menu3:hover,
-.menu4:hover {
+.menu4:hover,
+.menu5:hover {
     color: #E85910;
 }
 
@@ -112,13 +118,21 @@ a {
     height: 150%;
     padding: 0;
     margin: 0;
-    object-fit: cover;
     object-position: 50% 50%;
+    background-image: url(/img/local.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 50px solid black;
+}
+
+.logo {
+    width: 20vh;
+    transform: translate(-50%, 21%);
 }
 
 .logoredonda {
     max-width: 180px;
-    transform: translate(340%, -450%);
+    transform: translate(300%, 50%);
 }
 
 /* BOTOES */
@@ -136,15 +150,14 @@ a {
     text-decoration: none;
     text-transform: none;
     vertical-align: middle;
-    flex: 1 150px;
-    text-indent: 42px;
+    flex: 1 1 150px;
+    text-indent:25px;
     display: flex;
-    margin: 0 50px;
-    padding-left: 0px;
-    padding-right: 0px;
+    margin: 10px 50px;
+    padding: 10px;
     max-width: 230px;
     line-height: 45px;
-    transform: translate(9%, -700%);
+    transform: translate(1%, 550%);
     position: relative;
     cursor: pointer;
 }
@@ -160,23 +173,24 @@ a {
 
 /* footer */
 #banner {
-    height: 30px;
+    height: 25px;
     display: flex;
     flex-direction: row;
-    color: rgb(255, 255, 255);
+    color: #ffff;
     margin-top: 30px;
-    transform: translate(45%, -850%);
+    transform: translate(45%, -250%);
     text-decoration: none;
 }
 
 .topedindo {
-    margin-left: -145px;
-    margin-top: 30px;
+    height: 10px;
+    margin-left: -150px;
+    margin-top: 25px;
 }
 
 .footertxt {
-    margin-left: -175px;
-    margin-top: 100px;
+    margin-left: -170px;
+    margin-top: 79px;
 }
 
 /*scrollbar*/
@@ -370,18 +384,17 @@ li p {
 
 
 @media (max-width: 768px) {
-    body {
-        overflow: hidden;
-    }
+  
 
     .btn {
+
         position: relative;
-        vertical-align: bottom;
         display: inline;
-        margin: 5px 77px;
-        text-indent: 38px;
+        vertical-align: auto;
+        margin: 56px;
+        text-indent: 40px;
         max-width: 250px;
-        transform: translate(0, -1280%);
+        transform: translate(6%, 0%);
     }
 
     .top-nav {
@@ -463,11 +476,10 @@ li p {
     /* footer  */
     #banner {
         background-color: #000000;
-        margin-bottom: 100%;
     }
 
-    .footer {
-        transform: translate(80%, -595%);
+    .topedindo {
+        transform: translate(80%, -1795%);
     }
 
     /* SOBRE-----pagina NOSSA_HISTÓRIA */
