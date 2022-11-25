@@ -4,14 +4,16 @@
 
 html,
 body {
-    margin: 0;
     height: 100%;
     background: rgb(0, 0, 0);
-    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden !important;
+    margin: 0px !important;
+    padding: 0px !important;
 }
 
 * {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
@@ -376,7 +378,7 @@ li p {
         vertical-align: bottom;
         display: inline;
         margin: 5px 77px;
-        text-indent: 55px;
+        text-indent: 38px;
         max-width: 250px;
         transform: translate(0, -1280%);
     }
