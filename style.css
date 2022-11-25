@@ -106,7 +106,7 @@ a {
 
 .imglocal {
     width: 100%;
-    height: 100%;
+    height: 150%;
     padding: 0;
     margin: 0;
     object-fit: cover;
@@ -114,8 +114,8 @@ a {
 }
 
 .logoredonda {
-    width: 180px;
-    transform: translate(340%, -270%);
+    max-width: 180px;
+    transform: translate(340%, -450%);
 }
 
 /* BOTOES */
@@ -157,24 +157,23 @@ a {
 
 /* footer */
 #banner {
-    white-space: 20px;
     height: 30px;
     display: flex;
     flex-direction: row;
     color: rgb(255, 255, 255);
     margin-top: 30px;
-    transform: translate(45%, -200%);
+    transform: translate(45%, -850%);
+    text-decoration: none;
 }
 
-.footer {
-    transform: translate(-95%, 150%);
-    height: 32px;
+.topedindo {
+    margin-left: -145px;
+    margin-top: 30px;
 }
 
 .footertxt {
-
-    margin-left: -290px;
-    margin-top: 90px;
+    margin-left: -175px;
+    margin-top: 100px;
 }
 
 /*scrollbar*/
@@ -198,7 +197,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-/* SOBRE CSS PAGINA NOSSA HISTORIA */
+/* SOBRE---- PAGINA NOSSA HISTORIA */
 
 #sobre {
     background-color: rgba(0, 0, 0, 0.2);
@@ -380,7 +379,7 @@ li p {
         margin: 5px 77px;
         text-indent: 55px;
         max-width: 250px;
-        transform: translate(0, -1380%);
+        transform: translate(0, -1580%);
     }
 
     .top-nav {
@@ -390,6 +389,10 @@ li p {
     .logo {
         width: 25vh;
         transform: translate(20%, 90%);
+    }
+
+    .logoredonda {
+        display: none;
     }
 
     .imglocal {
