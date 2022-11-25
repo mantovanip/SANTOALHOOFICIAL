@@ -19,6 +19,7 @@ body {
 
 /* BARRA NAV */
 .top-nav {
+    height: 110px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -26,7 +27,7 @@ body {
     background: black;
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #FFF;
-    height: 110px;
+   
     padding: 1em;
     text-decoration: none;
     text-align: left;
