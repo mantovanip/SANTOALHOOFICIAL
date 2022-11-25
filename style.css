@@ -6,7 +6,7 @@ html,
 body {
     margin: 0;
     height: 100%;
-    background: black;
+    background: rgb(0, 0, 0);
     overflow-x: hidden;
 }
 
@@ -46,7 +46,7 @@ a {
 .menu2:hover,
 .menu3:hover,
 .menu4:hover {
-   color: #E85910;
+    color: #E85910;
 }
 
 .menu>li {
@@ -111,8 +111,11 @@ a {
     margin: 0;
     object-fit: cover;
     object-position: 50% 50%;
-    border: 50px solid black;
+}
 
+.logoredonda {
+    width: 180px;
+    transform: translate(340%, -270%);
 }
 
 /* BOTOES */
@@ -138,11 +141,9 @@ a {
     padding-right: 0px;
     max-width: 230px;
     line-height: 45px;
-    transform: translate(9%, -300%);
+    transform: translate(9%, -700%);
     position: relative;
     cursor: pointer;
-
-
 }
 
 .btn:hover {
@@ -368,7 +369,7 @@ li p {
 
 
 @media (max-width: 700px) {
-    body{
+    body {
         overflow: hidden;
     }
 
@@ -379,14 +380,14 @@ li p {
         margin: 5px 77px;
         text-indent: 55px;
         max-width: 250px;
-        transform: translate(0, -1080%);
+        transform: translate(0, -1380%);
     }
 
     .top-nav {
         height: 70px;
     }
 
-    #logo {
+    .logo {
         width: 25vh;
         transform: translate(20%, 90%);
     }
@@ -456,7 +457,8 @@ li p {
 
     /* footer  */
     #banner {
-        display: none;
+        background-color: #000000;
+        margin-bottom: 100%;
     }
 
     .footer {
