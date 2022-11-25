@@ -42,6 +42,13 @@ a {
     text-decoration: none;
 }
 
+.menu1:hover,
+.menu2:hover,
+.menu3:hover,
+.menu4:hover {
+    border-bottom: 1px solid #E85910;
+}
+
 .menu>li {
     margin: 0 1rem;
     overflow: hidden;
@@ -116,18 +123,22 @@ a {
 }
 
 .btn {
+    box-sizing: border-box;
     background: #000000;
     color: #ffffff;
     font-size: 17px;
     text-decoration: none;
+    text-transform: none;
     vertical-align: middle;
     flex: 1 150px;
-    text-indent: 35px;
-    color: rgb(255, 255, 255);
+    text-indent: 42px;
     display: flex;
-    margin: 0 70px;
+    margin: 0 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 230px;
     line-height: 45px;
-    transform: translate(-2%, -300%);
+    transform: translate(9%, -300%);
     position: relative;
     cursor: pointer;
 
@@ -145,6 +156,7 @@ a {
 
 /* footer */
 #banner {
+    white-space: 20px;
     height: 30px;
     display: flex;
     flex-direction: row;
@@ -154,14 +166,14 @@ a {
 }
 
 .footer {
-    transform: translate(435%, -150%);
+    transform: translate(-95%, 150%);
     height: 32px;
 }
 
 .footertxt {
 
-    margin-left: 440px;
-    margin-top: -10px;
+    margin-left: -290px;
+    margin-top: 90px;
 }
 
 /*scrollbar*/
@@ -185,7 +197,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-/* SOBRE CSS */
+/* SOBRE CSS PAGINA NOSSA HISTORIA */
 
 #sobre {
     background-color: rgba(0, 0, 0, 0.2);
@@ -248,7 +260,7 @@ li p {
     text-align: center;
 }
 
-/* INFO_SECTION CSS */
+/* INFO_SECTION CSS----PAGINA DESTAQUES*/
 
 .infoSection {
     padding: 80px;
@@ -351,26 +363,32 @@ li p {
 
 }
 
+/* FIM DESTAQUES */
 
 
-@media (max-width: 768px) {
+
+@media (max-width: 700px) {
+    body{
+        overflow: hidden;
+    }
+
     .btn {
         position: relative;
         vertical-align: bottom;
         display: inline;
         margin: 5px 77px;
-        text-indent: 45px;
+        text-indent: 55px;
         max-width: 250px;
-        transform: translate(0, -880%);
+        transform: translate(0, -1080%);
     }
 
     .top-nav {
         height: 70px;
     }
 
-    .logo {
+    #logo {
         width: 25vh;
-        transform: translate(13%, 90%);
+        transform: translate(20%, 90%);
     }
 
     .imglocal {
@@ -400,7 +418,7 @@ li p {
         margin-left: -40px;
         padding-left: 90px;
         transition: transform 0.5s ease-in-out;
-        z-index:2;
+        z-index: 2;
     }
 
     #menu-toggle~.menu li {
@@ -435,7 +453,8 @@ li p {
     .menu>li:not(:last-child) {
         border-bottom: 1px solid #444;
     }
-/* footer  */
+
+    /* footer  */
     #banner {
         display: none;
     }
@@ -444,9 +463,7 @@ li p {
         transform: translate(80%, -595%);
     }
 
-    /* SOBRE */
-
-
+    /* SOBRE-----pagina NOSSA_HISTÓRIA */
 
     .sobre {
         margin-top: 80px;

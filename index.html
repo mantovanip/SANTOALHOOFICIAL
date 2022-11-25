@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="img/logoredonda.png" type="image.png">
 
     <title>SANTO ALHO</title>
@@ -14,7 +15,7 @@
 <body>
     <section class="top-nav">
         <div>
-            <a href="index.html"><img class="logo" width="111px" style="padding:0px" src="/img/LOGO.png" alt=""></a>
+            <a href="index.html"><img id="logo" width="111px" style="padding:0px" src="/img/LOGO.png" alt=""></a>
         </div>
 
         <input id="menu-toggle" type="checkbox" />
@@ -22,13 +23,13 @@
             <div class='menu-button'></div>
         </label>
         <ul class="menu">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="nossah.html">NOSSA HISTÓRIA</a></li>
-            <li><a href="destaques.html">DESTAQUES</a></li>
-            <li><a href="unidades.html">UNIDADES</a></li>
+            <li><a class="menu1" href="index.html">HOME</a></li>
+            <li><a class="menu2" href="nossah.html">NOSSA HISTÓRIA</a></li>
+            <li><a class="menu3" href="destaques.html">DESTAQUES</a></li>
+            <li><a class="menu4" href="unidades.html">UNIDADES</a></li>
         </ul>
     </section>
-    <img class="imglocal" src="/img/local.jpg">
+    <img data-aos="fade-up" data-aos-anchor-placement="top-center" class="imglocal" src="/img/local.jpg">
 
     <div class="container">
         <a class="btn" href="https://santoalhocriciuma.com.br/santoalho/pedidos">Peça em Criciuma </a>
@@ -52,17 +53,18 @@
             <a style="border-bottom:1px solid #ffffff;" href="https://twitter.com/santoalhocrici"><img
                     src="img/twitter.png" alt="twitter"></a>
 
+            <a href="https://empresas.topedindo.app/">
+                <img class="footer" src="/img/topedindo.png" alt="">
+                <p class="footertxt"> Desenvolvido por
+                    Topedindo </p>
+            </a>
         </div>
-
     </footer>
-    <a href="https://empresas.topedindo.app/">
-        <img class="footer" src="/img/topedindo.png" alt="">
-        <p class="footertxt"> Desenvolvido por
-            Topedindo </p>
-    </a>
 
-
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
