@@ -42,20 +42,16 @@ a {
     font-size: 1.4rem;
 }
 
-.menu1 {
-    color: #E85910;
-}
-
-.menu1:hover {
-    color: #ffffff;
-}
-
-
+.menu1:hover,
 .menu2:hover,
 .menu3:hover,
-.menu4:hover,
-.menu5:hover {
+.menu4:hover {
     color: #E85910;
+}
+
+.menu5 {
+    color: transparent;
+    display: none;
 }
 
 .menu>li {
@@ -151,7 +147,7 @@ a {
     text-transform: none;
     vertical-align: middle;
     flex: 1 1 150px;
-    text-indent:25px;
+    text-indent: 25px;
     display: flex;
     margin: 10px 50px;
     padding: 10px;
@@ -171,25 +167,49 @@ a {
     background: #365c1b;
 }
 
+.map1 {
+    margin: 0 115px;
+    display: inline-block;
+
+}
+
+.map2 {
+    display: inline-block;
+
+}
+
+.text-map,
+h1,
+h3 {
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+}
+
 /* footer */
 #banner {
     height: 25px;
     display: flex;
-    flex-direction: row;
     color: #ffff;
     margin-top: 30px;
-    transform: translate(45%, -250%);
+    transform: translate(45%, -50%);
     text-decoration: none;
 }
 
+.midias {
+    flex-direction: row;
+    border-bottom: 1px solid #ffffff;
+
+}
+
 .topedindo {
-    height: 10px;
-    margin-left: -150px;
-    margin-top: 25px;
+    height: 15px;
+    margin-left: -130px;
+    margin-top: 30px;
 }
 
 .footertxt {
-    margin-left: -170px;
+    margin-left: -150px;
     margin-top: 79px;
 }
 
@@ -383,7 +403,7 @@ li p {
 
 
 @media (max-width: 768px) {
-  
+
 
     .btn {
 
@@ -437,6 +457,11 @@ li p {
         padding-left: 90px;
         transition: transform 0.5s ease-in-out;
         z-index: 2;
+    }
+
+    .menu5 {
+        color: #000000;
+        display: flex;
     }
 
     #menu-toggle~.menu li {
