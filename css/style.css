@@ -273,6 +273,8 @@ body::-webkit-scrollbar-thumb {
         padding-left: 90px;
         transition: transform 0.5s ease-in-out;
         z-index: 2;
+        opacity: 85%;
+
     }
 
     .menu5 {

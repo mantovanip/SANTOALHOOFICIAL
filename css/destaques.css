@@ -285,6 +285,9 @@ body::-webkit-scrollbar-thumb {
     body {
         overflow: hidden;
     }
+    .top-nav {
+        height: 50px;
+    }
 
     .logo {
         cursor: ne-resize;
@@ -312,6 +315,7 @@ body::-webkit-scrollbar-thumb {
         padding-left: 90px;
         transition: transform 0.5s ease-in-out;
         z-index: 2;
+        opacity: 85%;
     }
 
     .menu5 {
@@ -352,6 +356,64 @@ body::-webkit-scrollbar-thumb {
         border-bottom: 1px solid #444;
     }
 
+    #destaques {
+        transform: translateY(-110%);
+        font-size: 35px;
+    }
+
+    .cardone {
+        flex-direction: column;
+        justify-content: center;
+        height: 140px;
+        align-items: center;
+        text-align: center;
+        transform: translate(-35%, -40%);
+        background-size: cover;
+
+    }
+
+    .cardtwo {
+        flex-direction: column;
+        justify-content: center;
+        height: 150px;
+        align-items: center;
+        text-align: center;
+        transform: translate(-130%, 90%);
+        background-size: cover;
+
+    }
+
+    .cardthree {
+        flex-direction: column;
+        justify-content: center;
+        height: 150px;
+        align-items: center;
+        text-align: center;
+        transform: translate(-220%, 230%);
+        background-size: cover;
+    }
+
+    .txtdestaque {
+        transform: translate(200%, 10%);
+        font-size: 20px;
+    }
+
+    .retangulolocalone {
+        height: 140px;
+        width: 65px;
+        transform: translate(-138%, -35%);
+
+    }
+
+    .retangulolocaltwo {
+        height: 140px;
+        width: 65px;
+        transform: translate(-138%,110%);    }
+
+    .retangulolocalthree {
+        height: 140px;
+        width: 65px;
+        transform: translate(-138%, 255%);    }
     .topedindo {
         margin: auto;
         transform: translateX(-69%);
@@ -365,63 +427,4 @@ body::-webkit-scrollbar-thumb {
         display: none;
     }
 
-    #destaques {
-        font-size: 55px;
-    }
-
-    .cardone {
-        flex-direction: column;
-        justify-content: center;
-        height: 180px;
-        width: 250px;
-        align-items: center;
-        text-align: center;
-        transform: translate(35%, 10%);
-        background-size: cover;
-
-    }
-
-    .cardtwo {
-        flex-direction: column;
-        justify-content: center;
-        height: 180px;
-        width: 200px;
-        align-items: center;
-        text-align: center;
-        transform: translate(-60%, 150%);
-        background-size: cover;
-
-    }
-
-    .cardthree {
-        flex-direction: column;
-        justify-content: center;
-        height: 180px;
-        width: 170px;
-        align-items: center;
-        text-align: center;
-        transform: translate(-150%, 270%);
-        background-size: cover;
-    }
-
-    .txtdestaque {
-        transform: translate(130%, 10%);
-        font-size: 24px;
-    }
-
-    .retangulolocalone {
-        display: none;
-    }
-
-    .retangulolocaltwo {
-        display: none;
-    }
-
-    .retangulolocalthree {
-        display: none;
-    }
-
-    .infoCards {
-        margin-bottom: 60px;
-    }
 }

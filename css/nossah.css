@@ -261,11 +261,12 @@ body::-webkit-scrollbar-thumb {
         width: 100%;
         justify-content: center;
         align-items: center;
-        margin-left: -10px;
-        opacity: 85%;
-        padding-left: 5px;
+        margin-left: -40px;
+        padding-left: 90px;
         transition: transform 0.5s ease-in-out;
         z-index: 2;
+        opacity: 85%;
+
     }
 
     .menu5 {
