@@ -167,29 +167,6 @@ a {
     background: #365c1b;
 }
 
-.map1 {
-    font-size: 1.5rem;
-    color: #fff;
-    text-align: center;
-    transform: translateX(15%);
-    display: inline-block;
-
-}
-
-.map2 {
-    font-size: 1.5rem;
-    color: #fff;
-    text-align: center;
-    transform: translateX(80%);
-    display: inline-block;
-
-}
-
-.unidades {
-    color: #ffffff;
-    font-size: 3rem;
-    text-align: center;
-}
 
 /* footer */
 #banner {
@@ -237,172 +214,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-/* SOBRE---- PAGINA NOSSA HISTORIA */
 
-#sobre {
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 100px;
-    text-align: center;
-    display: flex;
-    position: relative;
-
-}
-
-/* fotos proprietarios */
-
-#propietarios {
-    transform: translate(3%, 1%);
-    height: 550px;
-    width: 450px;
-    background: url(/img/propietarios.jpg) no-repeat;
-    border-radius: 40px;
-    position: relative;
-
-}
-
-#retanguloprop {
-    transform: translate(7%, 5%);
-    height: 550px;
-    width: 450px;
-    border-radius: 50px;
-    border: 3px solid #E85910;
-    border-radius: 50px;
-    box-sizing: border-box;
-    position: absolute;
-}
-
-ol {
-    list-style: none;
-
-}
-
-li p {
-    font-size: 1.2vh;
-    color: rgb(255, 255, 255);
-    padding: 0 30px 0 35px;
-    line-height: 2px;
-
-}
-
-.historia {
-    font-size: 25px;
-    line-height: 42px;
-    text-align: center;
-
-}
-
-#nossaHistoria {
-    font-family: 'roboto';
-    color: #ffffff;
-    font-size: 7.5vw;
-    margin: 0 !important;
-    text-align: center;
-}
-
-/* INFO_SECTION CSS----PAGINA DESTAQUES*/
-
-.infoSection {
-    padding: 80px;
-    height: 780px;
-    position: relative;
-}
-
-.infoCards {
-
-    height: 300px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 40px 0 40px 0;
-    position: relative;
-}
-
-.cardone {
-
-    position: relative;
-    Width: 350px;
-    Height: 380px;
-    background-image: url(/img/fmignon4.png);
-    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
-    border-radius: 50px;
-
-}
-
-.retangulolocalone {
-    transform: translate(120%, 7%);
-    Width: 350px;
-    Height: 380px;
-    border-radius: 50px;
-    border: 4px solid #E85910;
-    filter: drop-shadow(9px 10px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 50px;
-    box-sizing: border-box;
-    position: absolute;
-}
-
-.cardtwo {
-
-    position: relative;
-    Width: 350px;
-    Height: 380px;
-    background-image: url(/img/alcatra.png);
-    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
-    border-radius: 50px;
-
-
-}
-
-.retangulolocaltwo {
-    transform: translate(7%, 7%);
-    Width: 350px;
-    Height: 380px;
-    border-radius: 50px;
-    border: 4px solid #E85910;
-    filter: drop-shadow(9px 10px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 50px;
-    box-sizing: border-box;
-    position: absolute;
-}
-
-.cardthree {
-    position: relative;
-    Width: 350px;
-    Height: 380px;
-    background-image: url(/img/costela.png);
-    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
-    border-radius: 50px;
-
-
-}
-
-.retangulolocalthree {
-    transform: translate(-107%, 7%);
-    Width: 350px;
-    Height: 380px;
-    border-radius: 50px;
-    border: 4px solid #E85910;
-    filter: drop-shadow(9px 10px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 50px;
-    box-sizing: border-box;
-    position: absolute;
-}
-
-#destaques {
-    color: #FFF;
-    font-size: 5vw;
-    margin: 0 !important;
-    text-align: center;
-}
-
-.txtdestaque {
-    color: #ffffff;
-    font-size: 45px;
-    text-align: center;
-    transform: translate(7%, 385px);
-
-}
-
-/* FIM DESTAQUES */
 
 
 @media (max-width: 768px) {
@@ -418,20 +230,11 @@ li p {
         vertical-align: auto;
         text-indent: 40px;
         max-width: 250px;
-        transform: translate(10%, 380%);
+        transform: translate(15%, 380%);
     }
 
     .top-nav {
         height: 70px;
-    }
-
-    .logo {
-        width: 25vh;
-        transform: translate(20%, 90%);
-    }
-
-    .logoredonda {
-        display: none;
     }
 
     .imglocal {
@@ -442,6 +245,15 @@ li p {
         object-fit: cover;
         border: 0;
 
+    }
+
+    .logo {
+        width: 25vh;
+        transform: translate(20%, 90%);
+    }
+
+    .logoredonda {
+        display: none;
     }
 
     .menu-button-container {
@@ -512,43 +324,4 @@ li p {
         display: none;
     }
 
-    /* SOBRE-----pagina NOSSA_HISTÓRIA */
-
-    .sobre {
-        margin-top: 80px;
-        float: left;
-        margin: bottom 0;
-        font-size: 10px;
-    }
-
-    #propietarios {
-        background-size: cover;
-        max-width: 340px;
-        max-height: 460px;
-        transform: translate(-23%, 10%);
-    }
-
-    #retanguloprop {
-        width: 340px;
-        height: 460px;
-        transform: translate(-18%, 15%);
-    }
-
-    #nossaHistoria {
-        transform: translate(-160%, -95%);
-        text-align: center;
-        line-height: normal;
-        font-size: 45px;
-    }
-
-    .historia {
-        padding: 0;
-        margin: 0;
-        height: 900px;
-        font-size: 25px;
-        transform: translate(-155%, 50%);
-        text-align: center;
-        line-height: normal;
-
-    }
 }

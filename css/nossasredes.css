@@ -1,0 +1,46 @@
+
+/* footer */
+#banner {
+    height: 25px;
+    display: flex;
+    color: #ffff;
+    margin-top: 10px;
+    transform: translate(32%, -1%);
+    text-decoration: none;
+    justify-content: space-around;
+    max-width: 40%;
+    margin: auto;
+}
+
+
+.topedindo {
+    transform: translateX(-170%);
+    margin-top: 55px;
+}
+
+.footertxt {
+    transform: translateX(-210%);
+    font-size: smaller;
+    margin-top: 85px;
+}
+
+/*scrollbar*/
+body::-webkit-scrollbar {
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #E85910;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid rgb(255, 255, 255);
+    /* creates padding around scroll thumb */
+}
+
