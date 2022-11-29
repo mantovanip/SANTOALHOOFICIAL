@@ -123,12 +123,12 @@ a {
 
 .logo {
     width: 20vh;
-    transform: translate(-50%, 21%);
+    transform: translate(-50%, 32%);
 }
 
 .logoredonda {
     max-width: 180px;
-    transform: translate(300%, 50%);
+    transform: translate(400%, 50%);
 }
 
 /* BOTOES */
@@ -147,15 +147,15 @@ a {
     text-transform: none;
     vertical-align: middle;
     flex: 150px;
-    text-indent: 20px;
+    text-indent: 30px;
     display: flex;
     margin: 10px 50px;
     padding: 7px;
     padding-left: 0px;
     padding-right: 0px;
     max-width: 230px;
-    line-height: 45px;
-    transform: translate(5%, 550%);
+    line-height: 55px;
+    transform: translate(80%, 550%);
     position: relative;
     cursor: pointer;
 }
@@ -176,7 +176,7 @@ a {
     display: flex;
     color: #ffff;
     margin-top: 10px;
-    transform: translate(32%, -1%);
+    transform: translate(25%,-50%);
     text-decoration: none;
     justify-content: space-around;
     max-width: 40%;
@@ -185,12 +185,12 @@ a {
 
 
 .topedindo {
-    transform: translateX(-170%);
+    transform: translateX(-250%);
     margin-top: 55px;
 }
 
 .footertxt {
-    transform: translateX(-210%);
+    transform: translateX(-265%);
     font-size: smaller;
     margin-top: 85px;
 }
@@ -232,11 +232,11 @@ body::-webkit-scrollbar-thumb {
         vertical-align: auto;
         text-indent: 40px;
         max-width: 250px;
-        transform: translate(15%, 380%);
+        transform: translate(12%, 380%);
     }
 
     .top-nav {
-        height: 70px;
+        height: 80px;
     }
 
     .imglocal {
@@ -251,7 +251,7 @@ body::-webkit-scrollbar-thumb {
 
     .logo {
         width: 25vh;
-        transform: translate(20%, 90%);
+        transform: translate(25%, 100%);
     }
 
     .logoredonda {
@@ -319,7 +319,7 @@ body::-webkit-scrollbar-thumb {
 
     .topedindo {
         margin: auto;
-        transform: translateX(-59%);
+        transform: translate(-50%,90%);
     }
     .footertxt{
        display: none;

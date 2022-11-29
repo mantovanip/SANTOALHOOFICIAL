@@ -1,16 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+
+
+html,
+body {
+    height: 100%;
+    background: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* BARRA NAV */
+.top-nav {
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background: black;
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* MENU HAMBURGUER */
+.menu,
+a {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.menu1:hover,
+.menu2:hover,
+.menu3:hover,
+.menu4:hover {
+    color: #E85910;
+}
+
+.menu5 {
+    color: transparent;
+    display: none;
+}
+
+.menu>li {
+    margin: 0 1rem;
+    overflow: hidden;
+}
+
+.menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+    display: block;
+    background-color: #E85910;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+}
+
+.menu-button::before {
+    content: '';
+    margin-top: -8px;
+}
+
+.menu-button::after {
+    content: '';
+    margin-top: 8px;
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button {
+    background: rgb(255, 255, 255, );
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+}
 
 /* footer */
-#banner {
-    height: 25px;
-    display: flex;
-    color: #ffff;
-    margin-top: 10px;
-    transform: translate(32%, -1%);
-    text-decoration: none;
-    justify-content: space-around;
-    max-width: 40%;
-    margin: auto;
-}
+
 
 
 .topedindo {
@@ -18,11 +118,7 @@
     margin-top: 55px;
 }
 
-.footertxt {
-    transform: translateX(-210%);
-    font-size: smaller;
-    margin-top: 85px;
-}
+
 
 /*scrollbar*/
 body::-webkit-scrollbar {
@@ -44,3 +140,100 @@ body::-webkit-scrollbar-thumb {
     /* creates padding around scroll thumb */
 }
 
+
+
+@media only screen and (max-width: 768px) {
+
+    .logo {
+        cursor: ne-resize;
+        opacity: 0.1%;
+    }
+
+    .logoredonda {
+        display: none;
+    }
+
+    .menu-button-container {
+        display: flex;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        margin-top: 50px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-left: -40px;
+        padding-left: 90px;
+        transition: transform 0.5s ease-in-out;
+        z-index: 2;
+        opacity: 85%;
+
+    }
+
+    .menu5 {
+        color: #000000;
+        display: flex;
+    }
+
+    #menu-toggle~.menu li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    #menu-toggle:checked~.menu li {
+        height: 7em;
+        line-height: 100px;
+        text-align: center;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .menu>li {
+
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0.5em 0;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+
+    a {
+        color: rgb(0, 0, 0);
+    }
+
+    .menu>li:not(:last-child) {
+        border-bottom: 1px solid #444;
+    }
+
+    #banner{
+        height: 15px;
+        display: flex;
+        flex-direction:column;
+        margin: auto;
+        color: #ffff;
+        line-height: 3;
+        transform: translate(10%,50%);
+    } 
+    .midias{
+        height: 40px;
+    }
+
+    h1{
+        font-size: 2.5rem;
+        text-align: justify;
+    }
+    h2 {
+        font-size: 1.5rem;
+        color: #FFF;
+        text-align: center;
+        transform: translate(10%, -50%);
+    }
+
+}
