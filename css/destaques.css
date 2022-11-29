@@ -6,7 +6,7 @@ html,
 body {
     background: rgb(0, 0, 0);
     font-family: 'Roboto', sans-serif;
-    overflow-x: hidden !important;
+    overflow: 0 !important;
     margin: 0px !important;
     padding: 0px !important;
 }
@@ -145,7 +145,7 @@ a {
 }
 
 .retangulolocalone {
-    transform: translate(180%, 7%);
+    transform: translate(135%, 7%);
     Width: 350px;
     Height: 380px;
     border-radius: 50px;
@@ -167,7 +167,7 @@ a {
 }
 
 .retangulolocaltwo {
-    transform: translate(10%, 7%);
+    transform: translate(7%, 7%);
     Width: 350px;
     Height: 380px;
     border-radius: 50px;
@@ -188,7 +188,7 @@ a {
 }
 
 .retangulolocalthree {
-    transform: translate(-165%, 7%);
+    transform: translate(-121%, 7%);
     Width: 350px;
     Height: 380px;
     border-radius: 50px;
@@ -201,14 +201,14 @@ a {
 
 #destaques {
     color: #FFF;
-    font-size: 5vw;
+    font-size: 4vw;
     margin: 0 !important;
     text-align: center;
 }
 
 .txtdestaque {
     color: #ffffff;
-    font-size: 45px;
+    font-size: 3rem;
     text-align: center;
     transform: translate(7%, 385px);
 
@@ -227,14 +227,13 @@ a {
     margin: auto;
 }
 
-
 .topedindo {
-    transform: translateX(-230%);
+    transform: translateX(-180%);
     margin-top: 55px;
 }
 
 .footertxt {
-    transform: translateX(-255%);
+    transform: translateX(-215%);
     font-size: smaller;
     margin-top: 85px;
 }

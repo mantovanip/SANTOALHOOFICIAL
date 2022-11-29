@@ -125,17 +125,17 @@ a {
     font-size: 2rem;
     color: #fff;
     text-align: center;
-    transform: translateX(50%);
+    transform: translateX(30%);
     display: inline-block;
 
 }
 
 .map2 {
-    padding-left:15%;
+    padding-left:10%;
     font-size: 2rem;
     color: #fff;
     text-align: center;
-    transform: translateX(50%);
+    transform: translateX(30%);
     display: inline-block;
     align-content: center;
 
@@ -143,12 +143,12 @@ a {
 
 .unidades {
     color: #ffffff;
-    font-size: 4rem;
+    font-size: 4vw;
     text-align: center;
 }
 h3{
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 1.89rem;
     text-align: center;
 }
 
@@ -157,8 +157,8 @@ h3{
     height: 25px;
     display: flex;
     color: #ffff;
-    margin-top: 10px;
-    transform: translate(25%, -1%);
+    margin-top: 5px;
+    transform: translate(30%, -1%);
     text-decoration: none;
     justify-content: space-around;
     max-width: 40%;
@@ -167,12 +167,12 @@ h3{
 
 
 .topedindo {
-    transform: translateX(-230%);
+    transform: translateX(-180%);
     margin-top: 55px;
 }
 
 .footertxt {
-    transform: translateX(-255%);
+    transform: translateX(-215%);
     font-size: smaller;
     margin-top: 85px;
 }
