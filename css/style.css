@@ -151,9 +151,11 @@ a {
     display: flex;
     margin: 10px 50px;
     padding: 7px;
+    padding-left: 0px;
+    padding-right: 0px;
     max-width: 230px;
     line-height: 45px;
-    transform: translate(15%, 550%);
+    transform: translate(5%, 550%);
     position: relative;
     cursor: pointer;
 }
@@ -217,7 +219,7 @@ body::-webkit-scrollbar-thumb {
 
 
 
-@media (max-width: 768px) {
+@media only screen and  (max-width: 768px){
 
     body{
         overflow: hidden;

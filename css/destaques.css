@@ -132,14 +132,12 @@ a {
 
 
 .infoSection {
-    padding: 80px;
-    height: 780px;
+    height: 700px;
     position: relative;
 }
 
 .infoCards {
 
-    height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -153,13 +151,12 @@ a {
     Width: 350px;
     Height: 380px;
     background-image: url(/img/fmignon4.png);
-    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
     border-radius: 50px;
 
 }
 
 .retangulolocalone {
-    transform: translate(120%, 7%);
+    transform: translate(137%, 7%);
     Width: 350px;
     Height: 380px;
     border-radius: 50px;
@@ -173,17 +170,15 @@ a {
 .cardtwo {
 
     position: relative;
-    Width: 350px;
-    Height: 380px;
+    width: 350px;
     background-image: url(/img/alcatra.png);
-    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
     border-radius: 50px;
 
 
 }
 
 .retangulolocaltwo {
-    transform: translate(7%, 7%);
+    transform: translate(10%, 7%);
     Width: 350px;
     Height: 380px;
     border-radius: 50px;
@@ -196,17 +191,16 @@ a {
 
 .cardthree {
     position: relative;
-    Width: 350px;
-    Height: 380px;
+    width: 350px;
+    
     background-image: url(/img/costela.png);
-    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
     border-radius: 50px;
 
 
 }
 
 .retangulolocalthree {
-    transform: translate(-107%, 7%);
+    transform: translate(-117%, 7%);
     Width: 350px;
     Height: 380px;
     border-radius: 50px;
@@ -284,6 +278,7 @@ body::-webkit-scrollbar-thumb {
     body {
         overflow: hidden;
     }
+
     .top-nav {
         height: 50px;
     }
@@ -356,7 +351,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     #destaques {
-        transform: translateY(-110%);
+        transform: translateY(-30%);
         font-size: 35px;
     }
 
@@ -366,8 +361,10 @@ body::-webkit-scrollbar-thumb {
         height: 140px;
         align-items: center;
         text-align: center;
-        transform: translate(-35%, -40%);
+        transform: translate(25%, -25%);
         background-size: cover;
+        border-radius: 27px;
+
 
     }
 
@@ -377,8 +374,10 @@ body::-webkit-scrollbar-thumb {
         height: 150px;
         align-items: center;
         text-align: center;
-        transform: translate(-130%, 90%);
+        transform: translate(-80%, 100%);
         background-size: cover;
+        border-radius: 27px;
+
 
     }
 
@@ -388,31 +387,38 @@ body::-webkit-scrollbar-thumb {
         height: 150px;
         align-items: center;
         text-align: center;
-        transform: translate(-220%, 230%);
+        transform: translate(-180%, 260%);
         background-size: cover;
+        border-radius: 27px;
     }
 
     .txtdestaque {
-        transform: translate(200%, 10%);
+        transform: translate(150%, 10%);
         font-size: 20px;
     }
 
     .retangulolocalone {
-        height: 140px;
-        width: 65px;
-        transform: translate(-138%, -35%);
+        height: 130px;
+        width: 115px;
+        border-radius: 27px;
+        transform: translate(-65%, -5%);
 
     }
 
     .retangulolocaltwo {
-        height: 140px;
-        width: 65px;
-        transform: translate(-138%,110%);    }
+        height: 130px;
+        width: 115px;
+        border-radius: 27px;
+        transform: translate(-65%, 145%);
+    }
 
     .retangulolocalthree {
-        height: 140px;
-        width: 65px;
-        transform: translate(-138%, 255%);    }
+        height: 130px;
+        width: 115px;
+        border-radius: 27px;
+        transform: translate(-65%, 325%);
+    }
+
     .topedindo {
         margin: auto;
         transform: translateX(-59%);
