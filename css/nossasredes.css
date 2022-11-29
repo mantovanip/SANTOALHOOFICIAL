@@ -112,11 +112,30 @@ a {
 /* footer */
 
 
-
-.topedindo {
-    transform: translateX(-170%);
-    margin-top: 55px;
+#banner{
+    height: 15px;
+    display: flex;
+    flex-direction:column;
+    margin: auto;
+    color: #ffff;
+    line-height: 3;
+    transform: translate(10%,50%);
+} 
+.midias{
+    height: 40px;
 }
+
+h1{
+    font-size: 2.5rem;
+    text-align: justify;
+}
+h2 {
+    font-size: 1.5rem;
+    color: #FFF;
+    text-align: center;
+    transform: translate(10%, -50%);
+}
+
 
 
 
