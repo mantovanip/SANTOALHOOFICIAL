@@ -283,19 +283,19 @@ body::-webkit-scrollbar-thumb {
     }
     .imgmap1{
         max-width: 210px;
-        transform: translate(15%, -10%);
+        transform: translate(-40%, -10%);
     }
     .imgmap2{
         max-width: 210px;
-        transform: translate(-10%, -20%);
+        transform: translate(-45%, -20%);
     }
     .text-map-1{
         font-size: 1.3rem;
-        transform: translate(15%,-20%);
+        transform: translate(-42%,-20%);
     }
     .text-map-2{
         font-size: 1.3rem;
-        transform: translate(-10%,-95%);
+        transform: translate(-45%,-95%);
     }
     h3{
         display: none;
