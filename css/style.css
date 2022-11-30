@@ -220,7 +220,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-@media (min-width: 290px) and (max-width: 390px) {
+@media (min-width: 290px) and (max-width: 370px) {
 
     .btn {
     
@@ -340,16 +340,18 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-@media (min-width: 400px) and (max-width: 800px) {
+@media (min-width: 370px) and (max-width: 800px) {
 
     .btn {
 
         position: relative;
         display: inline;
         vertical-align: auto;
-        text-indent: 50px;
+        text-indent: 55px;
+        font-size: 15px;
         max-width: 250px;
-        transform: translate(12%, 350%);
+        line-height: 38px;
+        transform: translate(8%, 350%);
     }
 
     .top-nav {
@@ -368,7 +370,7 @@ body::-webkit-scrollbar-thumb {
 
     .logo {
         width: 25vh;
-        transform: translate(25%, 100%);
+        transform: translate(35%, 100%);
     }
 
     .logoredonda {
