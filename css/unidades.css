@@ -207,9 +207,8 @@ body::-webkit-scrollbar-thumb {
 
 
 
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 800px){
 
-  
 
     .logo {
         cursor: ne-resize;
@@ -284,26 +283,28 @@ body::-webkit-scrollbar-thumb {
         color: #ffffff;
         font-size: 2.5rem;
         text-align: center;
+        margin: auto;
+
     }
 
     .imgmap1 {
         max-width: 210px;
-        transform: translate(-40%, -10%);
+        transform: translate(-55%, -1%);
     }
 
     .imgmap2 {
         max-width: 210px;
-        transform: translate(-42%, -20%);
+        transform: translate(-52%, -1%);
     }
 
     .text-map-1 {
         font-size: 1.3rem;
-        transform: translate(-42%, -20%);
+        transform: translate(-55%, 50%);
     }
 
     .text-map-2 {
         font-size: 1.3rem;
-        transform: translate(-45%, -95%);
+        transform: translate(-50%, 50%);
     }
 
     h3 {

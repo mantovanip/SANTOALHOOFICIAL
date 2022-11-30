@@ -220,7 +220,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-@media (min-width: 290px) and (max-width: 393px) {
+@media (min-width: 290px) and (max-width: 390px) {
 
     .btn {
     
@@ -340,7 +340,7 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-@media (min-width: 400px) and (max-width: 800px) {
+@media (min-width: 390px) and (max-width: 800px) {
 
     .btn {
 
@@ -349,7 +349,7 @@ body::-webkit-scrollbar-thumb {
         vertical-align: auto;
         text-indent: 50px;
         max-width: 250px;
-        transform: translate(15%, 350%);
+        transform: translate(12%, 350%);
     }
 
     .top-nav {
