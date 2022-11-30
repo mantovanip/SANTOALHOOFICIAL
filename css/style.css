@@ -259,8 +259,8 @@ body::-webkit-scrollbar-thumb {
     }
 
     .logo {
-        width: 22vh;
-        transform: translate(30%, 100%);
+        width: 24vh;
+        transform: translate(30%, 120%);
     }
 
     .logoredonda {
