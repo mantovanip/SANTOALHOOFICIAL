@@ -220,11 +220,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-@media (min-width: 290px) and (max-width: 390px) {
+@media (min-width: 290px) and (max-width: 400px) {
 
     .btn {
     
-        transform: translate(20%, 280%);
+        transform: translate(25%, 380%);
         box-sizing: border-box;
         background: #000000;
         color: #ffffff;
