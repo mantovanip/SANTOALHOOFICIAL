@@ -260,7 +260,7 @@ body::-webkit-scrollbar-thumb {
 
     .logo {
         width: 22vh;
-        transform: translate(40%, 100%);
+        transform: translate(30%, 100%);
     }
 
     .logoredonda {
