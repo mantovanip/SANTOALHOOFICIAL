@@ -220,7 +220,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-@media (min-width: 290px) and (max-width: 400px) {
+@media (min-width: 290px) and (max-width: 390px) {
 
     .btn {
     
@@ -259,8 +259,8 @@ body::-webkit-scrollbar-thumb {
     }
 
     .logo {
-        width: 24vh;
-        transform: translate(30%, 120%);
+        width: 23vh;
+        transform: translate(30%, 105%);
     }
 
     .logoredonda {
@@ -340,7 +340,7 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-@media (min-width: 390px) and (max-width: 800px) {
+@media (min-width: 400px) and (max-width: 800px) {
 
     .btn {
 
