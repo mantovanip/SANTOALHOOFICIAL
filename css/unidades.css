@@ -85,6 +85,7 @@ a {
     border-radius: 2px;
     right: 25px;
 }
+
 .menu-button::before {
     content: '';
     margin-top: -8px;
@@ -122,33 +123,37 @@ a {
     font-size: 1.7rem;
     color: #fff;
     text-align: center;
-    transform: translate(90%,-5%);
+    transform: translate(90%, -5%);
     display: inline-block;
 
 }
 
 .map2 {
-    padding-left:10%;
+    padding-left: 10%;
     font-size: 1.7rem;
     color: #fff;
     text-align: center;
-    transform: translate(60%,-5%);
+    transform: translate(60%, -5%);
     display: inline-block;
     align-content: center;
 
 }
-.imgmap1{
+
+.imgmap1 {
     max-width: 310px;
 }
-.imgmap2{
+
+.imgmap2 {
     max-width: 310px;
 }
+
 .unidades {
     color: #ffffff;
     font-size: 4vw;
     text-align: center;
 }
-h3{
+
+h3 {
     color: #ffffff;
     font-size: 2rem;
     text-align: center;
@@ -252,7 +257,8 @@ body::-webkit-scrollbar-thumb {
     }
 
     #menu-toggle:checked~.menu li {
-        height: 7em;
+        height: 6em;
+        width: 90em;
         line-height: 100px;
         text-align: center;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -275,33 +281,39 @@ body::-webkit-scrollbar-thumb {
     .menu>li:not(:last-child) {
         border-bottom: 1px solid #444;
     }
-   
+
     .unidades {
         color: #ffffff;
         font-size: 2.5rem;
         text-align: center;
     }
-    .imgmap1{
+
+    .imgmap1 {
         max-width: 210px;
         transform: translate(-40%, -10%);
     }
-    .imgmap2{
+
+    .imgmap2 {
         max-width: 210px;
         transform: translate(-42%, -20%);
     }
-    .text-map-1{
+
+    .text-map-1 {
         font-size: 1.3rem;
-        transform: translate(-42%,-20%);
+        transform: translate(-42%, -20%);
     }
-    .text-map-2{
+
+    .text-map-2 {
         font-size: 1.3rem;
-        transform: translate(-45%,-95%);
+        transform: translate(-45%, -95%);
     }
-    h3{
+
+    h3 {
         display: none;
     }
+
     .topedindo {
-     display: none;
+        display: none;
     }
 
     .footertxt {

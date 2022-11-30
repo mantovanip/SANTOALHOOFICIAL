@@ -6,7 +6,7 @@ html,
 body {
     background: rgb(0, 0, 0);
     font-family: 'Roboto', sans-serif;
-    overflow:0 !important;
+    overflow: 0 !important;
     margin: 0px !important;
     padding: 0px !important;
 }
@@ -71,6 +71,7 @@ a {
 #menu-toggle {
     display: none;
 }
+
 .menu-button,
 .menu-button::before,
 .menu-button::after {
@@ -83,6 +84,7 @@ a {
     border-radius: 2px;
     right: 25px;
 }
+
 .menu-button::before {
     content: '';
     margin-top: -8px;
@@ -161,7 +163,7 @@ li p {
 }
 
 .historia {
-    font-size: 25px;
+    font-size: 1.7rem;
     line-height: 42px;
     text-align: center;
 
@@ -170,7 +172,7 @@ li p {
 #nossaHistoria {
     font-family: 'roboto';
     color: #ffffff;
-    font-size: 7.5vw;
+    font-size: 4vw;
     margin: 0 !important;
     text-align: center;
 }
@@ -222,7 +224,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 768px) {
 
-    
+
 
     .top-nav {
         height: 70px;
@@ -264,7 +266,8 @@ body::-webkit-scrollbar-thumb {
     }
 
     #menu-toggle:checked~.menu li {
-        height: 7em;
+        height: 6em;
+        width: 90em;
         line-height: 100px;
         text-align: center;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -288,9 +291,9 @@ body::-webkit-scrollbar-thumb {
         border-bottom: 1px solid #444;
     }
 
-   #banner{
-    display: none;
-   }
+    #banner {
+        display: none;
+    }
 
     /* SOBRE-----pagina NOSSA_HISTÓRIA */
     .logo {
@@ -332,7 +335,7 @@ body::-webkit-scrollbar-thumb {
         transform: translate(-96%, 40%);
         text-align: center;
         line-height: normal;
-        
+
 
     }
 }

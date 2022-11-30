@@ -71,6 +71,7 @@ a {
 #menu-toggle {
     display: none;
 }
+
 .menu-button,
 .menu-button::before,
 .menu-button::after {
@@ -83,6 +84,7 @@ a {
     border-radius: 2px;
     right: 25px;
 }
+
 .menu-button::before {
     content: '';
     margin-top: -8px;
@@ -160,7 +162,7 @@ a {
 .cardtwo {
 
     position: relative;
-    width: 350px !important ;
+    width: 350px !important;
     background-image: url(/img/alcatra.png);
     border-radius: 50px;
 
@@ -181,7 +183,7 @@ a {
 
 .cardthree {
     position: relative;
-    width: 350px !important ;
+    width: 350px !important;
     background-image: url(/img/costela.png);
     border-radius: 50px;
 
@@ -314,7 +316,8 @@ body::-webkit-scrollbar-thumb {
     }
 
     #menu-toggle:checked~.menu li {
-        height: 7em;
+        height: 6em;
+        width: 90em;
         line-height: 100px;
         text-align: center;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -341,6 +344,7 @@ body::-webkit-scrollbar-thumb {
     #destaques {
         font-size: 2.5rem;
     }
+
     .txtdestaque {
         transform: translate(130%, 1%);
         font-size: 1.5rem;
@@ -383,12 +387,12 @@ body::-webkit-scrollbar-thumb {
         border-radius: 27px;
     }
 
-  
+
     .retangulolocalone {
         max-height: 130px;
         max-width: 135px;
         border-radius: 27px;
-        transform: translate(-65%,40%);
+        transform: translate(-65%, 40%);
 
     }
 
@@ -407,7 +411,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .topedindo {
-     display: none;
+        display: none;
     }
 
     .footertxt {
