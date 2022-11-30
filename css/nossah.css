@@ -71,27 +71,28 @@ a {
 #menu-toggle {
     display: none;
 }
-
 .menu-button,
 .menu-button::before,
 .menu-button::after {
     display: block;
     background-color: #E85910;
     position: absolute;
-    height: 4px;
-    width: 30px;
+    height: 3px;
+    width: 35px;
     transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
     border-radius: 2px;
+    right: 10px;
 }
-
 .menu-button::before {
     content: '';
     margin-top: -8px;
+    left: 1px;
 }
 
 .menu-button::after {
     content: '';
     margin-top: 8px;
+    left: 1px;
 }
 
 #menu-toggle:checked+.menu-button-container .menu-button::before {
@@ -221,9 +222,10 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 768px) {
 
-    body {
-        overflow: hidden;
+    body{
+        overflow-y: hidden;
     }
+
 
     .top-nav {
         height: 70px;
@@ -289,17 +291,9 @@ body::-webkit-scrollbar-thumb {
         border-bottom: 1px solid #444;
     }
 
-    .topedindo {
-       display: none;
-    }
-
-    .footertxt {
-        display: none;
-    }
-
-    .midias {
-        display: none;
-    }
+   #banner{
+    display: none;
+   }
 
     /* SOBRE-----pagina NOSSA_HISTÓRIA */
     .logo {
@@ -318,27 +312,27 @@ body::-webkit-scrollbar-thumb {
         background-size: cover;
         max-width: 240px;
         max-height: 300px;
-        transform: translate(-10%, 10%);
+        transform: translate(-10%, -5%);
     }
 
     #retanguloprop {
         width: 250px;
         height: 310px;
-        transform: translate(-8%, 15%);
+        transform: translate(-5%, -1%);
     }
 
     #nossaHistoria {
-        transform: translate(-85%, -120%);
+        transform: translate(-85%, -250%);
         text-align: justify;
         line-height: normal;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .historia {
         width: 400px;
         height: 600px;
         font-size: 1.5rem;
-        transform: translate(-96%, 50%);
+        transform: translate(-96%, 40%);
         text-align: center;
         line-height: normal;
         

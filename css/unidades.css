@@ -79,20 +79,22 @@ a {
     display: block;
     background-color: #E85910;
     position: absolute;
-    height: 4px;
-    width: 30px;
+    height: 3px;
+    width: 35px;
     transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
     border-radius: 2px;
+    right: 10px;
 }
-
 .menu-button::before {
     content: '';
     margin-top: -8px;
+    left: 1px;
 }
 
 .menu-button::after {
     content: '';
     margin-top: 8px;
+    left: 1px;
 }
 
 #menu-toggle:checked+.menu-button-container .menu-button::before {
@@ -114,11 +116,6 @@ a {
 .logo {
     width: 20vh;
     transform: translate(-50%, 32%);
-}
-
-.logoredonda {
-    max-width: 180px;
-    transform: translate(300%, 50%);
 }
 
 .map1 {
@@ -276,24 +273,24 @@ body::-webkit-scrollbar-thumb {
    
     .unidades {
         color: #ffffff;
-        font-size: 4rem;
+        font-size: 2.5rem;
         text-align: center;
     }
     .imgmap1{
         max-width: 210px;
-        transform: translate(-20%, -10%);
+        transform: translate(15%, -10%);
     }
     .imgmap2{
         max-width: 210px;
-        transform: translate(-60%, -20%);
+        transform: translate(-10%, -20%);
     }
     .text-map-1{
-        font-size: 1.7rem;
-        transform: translate(-25%,-20%);
+        font-size: 1.3rem;
+        transform: translate(15%,-20%);
     }
     .text-map-2{
-        font-size: 1.7rem;
-        transform: translate(-60%,-80%);
+        font-size: 1.3rem;
+        transform: translate(-10%,-95%);
     }
     h3{
         display: none;

@@ -79,20 +79,22 @@ a {
     display: block;
     background-color: #E85910;
     position: absolute;
-    height: 4px;
-    width: 30px;
+    height: 3px;
+    width: 35px;
     transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
     border-radius: 2px;
+    right: 10px;
 }
-
 .menu-button::before {
     content: '';
     margin-top: -8px;
+    left: 1px;
 }
 
 .menu-button::after {
     content: '';
     margin-top: 8px;
+    left: 1px;
 }
 
 #menu-toggle:checked+.menu-button-container .menu-button::before {
@@ -232,13 +234,12 @@ body::-webkit-scrollbar-thumb {
     }
 
     #banner{
-        height: 15px;
+        height: 35px;
         display: flex;
-        flex-direction:column;
         margin: auto;
         color: #ffff;
-        line-height: 3;
-        transform: translate(10%,50%);
+        line-height: 04;
+        transform: translate(10%);
     } 
     .midias{
         height: 40px;
@@ -246,13 +247,23 @@ body::-webkit-scrollbar-thumb {
 
     h1{
         font-size: 2.5rem;
-        text-align: justify;
+        text-align: start;
+        transform: translateY(-20%);
     }
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         color: #FFF;
-        text-align: center;
-        transform: translate(10%, -50%);
+        text-align: start;
+        transform: translate(30%, -50%);
     }
+    .youtube{
+        transform: translate(19%, -50%);
 
+    }
+    .topedindo{
+        transform: translate(20%);
+    }
+    .footertxt{
+        transform: translate(10%,-40%);
+    }
 }
