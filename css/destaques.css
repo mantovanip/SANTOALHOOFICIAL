@@ -354,7 +354,7 @@ body::-webkit-scrollbar-thumb {
         max-height: 140px;
         align-items: center;
         text-align: center;
-        transform: translate(25%, 23%);
+        transform: translate(25%, 10%);
         background-size: cover;
         border-radius: 27px;
 
@@ -367,7 +367,7 @@ body::-webkit-scrollbar-thumb {
         max-height: auto;
         align-items: center;
         text-align: center;
-        transform: translate(-80%, 160%);
+        transform: translate(-80%, 130%);
         background-size: cover;
         border-radius: 27px;
 
@@ -380,7 +380,7 @@ body::-webkit-scrollbar-thumb {
         max-height: auto;
         align-items: center;
         text-align: center;
-        transform: translate(-180%, 300%);
+        transform: translate(-180%, 250%);
         background-size: cover;
         border-radius: 27px;
     }
@@ -388,24 +388,24 @@ body::-webkit-scrollbar-thumb {
 
     .retangulolocalone {
         max-height: 130px;
-        max-width: 135px;
+        max-width: 125px;
         border-radius: 27px;
-        transform: translate(-65%, 40%);
+        transform: translate(-65%, 30%);
 
     }
 
     .retangulolocaltwo {
         max-height: 130px;
-        max-width: 135px;
+        max-width: 125px;
         border-radius: 27px;
-        transform: translate(-65%, 192%);
+        transform: translate(-70%, 158%);
     }
 
     .retangulolocalthree {
         max-height: 130px;
-        max-width: 135px;
+        max-width: 125px;
         border-radius: 27px;
-        transform: translate(-65%, 342%);
+        transform: translate(-65%, 285%);
     }
 
     .topedindo {
