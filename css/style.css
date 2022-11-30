@@ -370,7 +370,7 @@ body::-webkit-scrollbar-thumb {
 
     .logo {
         width: 25vh;
-        transform: translate(35%, 100%);
+        transform: translate(30%, 100%);
     }
 
     .logoredonda {
