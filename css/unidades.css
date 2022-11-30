@@ -119,25 +119,30 @@ a {
 }
 
 .map1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #fff;
     text-align: center;
-    transform: translateX(30%);
+    transform: translate(90%,-5%);
     display: inline-block;
 
 }
 
 .map2 {
     padding-left:10%;
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #fff;
     text-align: center;
-    transform: translateX(30%);
+    transform: translate(60%,-5%);
     display: inline-block;
     align-content: center;
 
 }
-
+.imgmap1{
+    max-width: 310px;
+}
+.imgmap2{
+    max-width: 310px;
+}
 .unidades {
     color: #ffffff;
     font-size: 4vw;
@@ -145,7 +150,7 @@ a {
 }
 h3{
     color: #ffffff;
-    font-size: 1.89rem;
+    font-size: 2rem;
     text-align: center;
 }
 
