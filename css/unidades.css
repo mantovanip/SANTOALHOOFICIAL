@@ -287,7 +287,7 @@ body::-webkit-scrollbar-thumb {
     }
     .imgmap2{
         max-width: 210px;
-        transform: translate(-45%, -20%);
+        transform: translate(-42%, -20%);
     }
     .text-map-1{
         font-size: 1.3rem;
