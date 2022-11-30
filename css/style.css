@@ -224,7 +224,7 @@ body::-webkit-scrollbar-thumb {
 
     .btn {
     
-        transform: translate(25%, 380%);
+        transform: translate(20%, 360%);
         box-sizing: border-box;
         background: #000000;
         color: #ffffff;
@@ -239,7 +239,7 @@ body::-webkit-scrollbar-thumb {
         padding-left: 0px;
         padding-right: 0px;
         max-width: 180px;
-        line-height: 40px;
+        line-height: 35px;
         position: relative;
         cursor: pointer;
     }
