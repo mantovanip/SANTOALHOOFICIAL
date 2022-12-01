@@ -347,7 +347,7 @@ body::-webkit-scrollbar-thumb {
         font-size: 15px;
         max-width: 250px;
         line-height: 38px;
-        transform: translate(7%, 380%);
+        transform: translate(13%, 450%);
     }
 
     .top-nav {
@@ -366,7 +366,7 @@ body::-webkit-scrollbar-thumb {
 
     .logo {
         width: 25vh;
-        transform: translate(30%, 100%);
+        transform: translate(25%, 100%);
     }
 
     .logoredonda {
