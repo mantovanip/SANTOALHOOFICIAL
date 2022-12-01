@@ -200,13 +200,13 @@ body::-webkit-scrollbar-thumb {
     /* color of the scroll thumb */
     border-radius: 20px;
     /* roundness of the scroll thumb */
- 
+
 }
 
 
 
 
-@media (min-width: 320px) and (max-width: 800px){
+@media (min-width: 320px) and (max-width: 800px) {
 
 
     .logo {
@@ -322,8 +322,8 @@ body::-webkit-scrollbar-thumb {
         display: none;
     }
 }
-@media (min-width: 1280px) and (max-width:1420px)
-{
+
+@media (min-width: 1280px) and (max-width:1420px) {
     .imgmap1 {
         max-width: 410px;
         transform: translate(-50%, 1%);
@@ -342,17 +342,18 @@ body::-webkit-scrollbar-thumb {
     .text-map-2 {
         font-size: 1.5rem;
         transform: translate(-30%, 50%);
-    }   
-    .topedindo{
-        transform: translate(-160%,10%);
     }
-    .footertxt{
-        transform: translate(-200%,50%);
+
+    .topedindo {
+        transform: translate(-160%, 10%);
+    }
+
+    .footertxt {
+        transform: translate(-200%, 50%);
     }
 }
 
-@media (min-width: 1420px) and (max-width:1920px)
-{
+@media (min-width: 1420px) and (max-width:1920px) {
     .imgmap1 {
         max-width: 410px;
         transform: translate(10%, 1%);
@@ -371,11 +372,13 @@ body::-webkit-scrollbar-thumb {
     .text-map-2 {
         font-size: 1.5rem;
         transform: translate(50%, 50%);
-    }   
-    .topedindo{
-        transform: translate(-250%,10%);
     }
-    .footertxt{
-        transform: translate(-290%,50%);
+
+    .topedindo {
+        transform: translate(-250%, 10%);
+    }
+
+    .footertxt {
+        transform: translate(-290%, 50%);
     }
 }
