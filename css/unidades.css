@@ -322,7 +322,36 @@ body::-webkit-scrollbar-thumb {
         display: none;
     }
 }
-@media (min-width: 1380px) and (max-width:1920px)
+@media (min-width: 1280px) and (max-width:1420px)
+{
+    .imgmap1 {
+        max-width: 410px;
+        transform: translate(-50%, 1%);
+    }
+
+    .imgmap2 {
+        max-width: 404px;
+        transform: translate(-30%, -1%);
+    }
+
+    .text-map-1 {
+        font-size: 1.5rem;
+        transform: translate(-50%, 50%);
+    }
+
+    .text-map-2 {
+        font-size: 1.5rem;
+        transform: translate(-30%, 50%);
+    }   
+    .topedindo{
+        transform: translate(-160%,10%);
+    }
+    .footertxt{
+        transform: translate(-200%,50%);
+    }
+}
+
+@media (min-width: 1420px) and (max-width:1920px)
 {
     .imgmap1 {
         max-width: 410px;

@@ -420,7 +420,25 @@ body::-webkit-scrollbar-thumb {
     }
 
 }
-@media (min-width: 1380px) and (max-width:1920px)
+@media (min-width: 1280px) and (max-width:1420px)
+{
+     .retangulolocalone {
+
+    transform: translate(135%, 7%);
+}
+    .retangulolocalthree{
+        transform: translate(-122%, 7%);
+
+    }
+
+    .topedindo{
+        transform: translate(-170%,-30%);
+    }
+    .footertxt{
+        transform: translate(-210%,50%);
+    }
+}
+@media (min-width: 1420px) and (max-width:1920px)
 {
      .retangulolocalone {
 

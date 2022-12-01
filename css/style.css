@@ -467,7 +467,32 @@ body::-webkit-scrollbar-thumb {
 
 }
 
-@media (min-width: 1380px) and (max-width:1920px) {
+@media (min-width: 1280px) and (max-width:1420px) {
+    .logo {
+        width: 17vh;
+        transform: translate(-100%, 30%);
+    }
+
+    .logoredonda {
+        max-width: 180px;
+        transform: translate(280%, 50%);
+    }
+
+    .btn {
+        transform: translate(-5%, 550%);
+    }
+
+    .topedindo {
+        transform: translate(-165%, 10%);
+    }
+
+    .footertxt {
+        transform: translate(-240%, 50%);
+    }
+}
+
+
+@media (min-width: 1420px) and (max-width:1920px) {
     .logo {
         width: 17vh;
         transform: translate(-150%, 30%);
