@@ -340,4 +340,15 @@ body::-webkit-scrollbar-thumb {
 
 
     }
+ 
+}
+
+@media (min-width: 1380px) and (max-width:1920px)
+{
+    .topedindo{
+        transform: translate(-250%,10%);
+    }
+    .footertxt{
+        transform: translate(-290%,50%);
+    }
 }

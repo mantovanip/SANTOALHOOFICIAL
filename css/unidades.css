@@ -323,3 +323,31 @@ body::-webkit-scrollbar-thumb {
         display: none;
     }
 }
+@media (min-width: 1380px) and (max-width:1920px)
+{
+    .imgmap1 {
+        max-width: 410px;
+        transform: translate(10%, 1%);
+    }
+
+    .imgmap2 {
+        max-width: 410px;
+        transform: translate(50%, -1%);
+    }
+
+    .text-map-1 {
+        font-size: 1.5rem;
+        transform: translate(10%, 50%);
+    }
+
+    .text-map-2 {
+        font-size: 1.5rem;
+        transform: translate(50%, 50%);
+    }   
+    .topedindo{
+        transform: translate(-250%,10%);
+    }
+    .footertxt{
+        transform: translate(-290%,50%);
+    }
+}
