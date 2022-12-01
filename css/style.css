@@ -217,9 +217,7 @@ body::-webkit-scrollbar-thumb {
 
 
 @media (min-width: 290px) and (max-width: 370px) {
-    body {
-        overflow: hidden;
-    }
+  
 
     .btn {
 
@@ -346,9 +344,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (min-width: 370px) and (max-width: 800px) {
-    body {
-        overflow: hidden;
-    }
+ 
 
 
     .btn {
