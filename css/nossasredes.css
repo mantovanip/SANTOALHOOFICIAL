@@ -254,19 +254,20 @@ body::-webkit-scrollbar-thumb {
         font-size: 1.3rem;
         color: #FFF;
         text-align: start;
-        transform: translate(30%, -50%);
+        transform: translate(30%, -100%);
     }
 
     .youtube {
-        transform: translate(19%, -50%);
+        transform: translate(19%, -105%);
 
     }
 
     .topedindo {
-        transform: translate(25%);
+        transform: translate(18%);
     }
 
     .footertxt {
         transform: translate(15%, -40%);
+        font-size: medium;
     }
 }
