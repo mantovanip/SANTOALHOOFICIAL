@@ -445,12 +445,12 @@ body::-webkit-scrollbar-thumb {
 
     .topedindo {
         margin: auto;
-        transform: translate(50%, 90%);
+        transform: translate(50%, 110%);
         display: inline-block;
     }
 
     .footertxt {
-        transform: translate(40%, -150%);
+        transform: translate(35%, -150%);
         text-align: center;
     }
 
