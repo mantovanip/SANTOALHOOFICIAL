@@ -178,23 +178,23 @@ a {
     display: flex;
     color: #ffff;
     margin-top: 10px;
-    transform: translate(35%, -50%);
+    transform: translate(35%, -120%);
     text-decoration: none;
     justify-content: space-around;
-    max-width: 40%;
+    max-width: 45%;
     margin: auto;
 }
 
 
 .topedindo {
-    transform: translateX(-140%);
-    margin-top: 55px;
+    transform: translateX(-170%);
+    margin-top: 35px;
 }
 
 .footertxt {
-    transform: translateX(-215%);
+    transform: translateX(-245%);
     font-size: smaller;
-    margin-top: 85px;
+    margin-top: 69px;
 }
 
 /*scrollbar*/
@@ -204,7 +204,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: rgb(255, 255, 255);
+    background: #E85910;
     /* color of the tracking area */
 }
 
@@ -213,7 +213,7 @@ body::-webkit-scrollbar-thumb {
     /* color of the scroll thumb */
     border-radius: 20px;
     /* roundness of the scroll thumb */
-    border: 3px solid rgb(255, 255, 255);
+    border: 1px solid #E85910;
     /* creates padding around scroll thumb */
 }
 
@@ -221,7 +221,7 @@ body::-webkit-scrollbar-thumb {
 @media (min-width: 290px) and (max-width: 370px) {
 
     .btn {
-    
+
         transform: translate(20%, 360%);
         box-sizing: border-box;
         background: #000000;
@@ -314,21 +314,29 @@ body::-webkit-scrollbar-thumb {
         padding: 0;
         width: 100%;
         background-color: rgb(255, 255, 255);
-        
+
     }
 
     a {
         color: rgba(0, 0, 0, 0.945);
     }
 
- 
+    #banner {
+        display: inline-block;
+    }
+
     .topedindo {
         margin: auto;
-        transform: translate(-40%, 90%);
+        transform: translate(40%, 90%);
+        display: inline-block;
     }
 
     .footertxt {
-        display: none;
+        transform: translate(30%, -240%);
+
+        text-align: center;
+        line-height: normal;
+        font: status-bar;
     }
 
     .midias {
@@ -433,13 +441,19 @@ body::-webkit-scrollbar-thumb {
         border-bottom: 1px solid #444;
     }
 
+    #banner {
+        display: inline-block;
+    }
+
     .topedindo {
         margin: auto;
-        transform: translate(-50%, 90%);
+        transform: translate(50%, 90%);
+        display: inline-block;
     }
 
     .footertxt {
-        display: none;
+        transform: translate(40%, -150%);
+        text-align: center;
     }
 
     .midias {
@@ -447,23 +461,27 @@ body::-webkit-scrollbar-thumb {
     }
 
 }
-@media (min-width: 1380px) and (max-width:1920px)
-{
-    .logo{
+
+@media (min-width: 1380px) and (max-width:1920px) {
+    .logo {
         width: 17vh;
-        transform: translate(-150%,30%);
+        transform: translate(-150%, 30%);
     }
-    .logoredonda{
+
+    .logoredonda {
         max-width: 230px;
-        transform: translate(330%,50%);
+        transform: translate(330%, 50%);
     }
-    .btn{
-        transform: translate(100%,550%);
+
+    .btn {
+        transform: translate(100%, 550%);
     }
-    .topedindo{
-        transform: translate(-210%,10%);
+
+    .topedindo {
+        transform: translate(-255%, 10%);
     }
-    .footertxt{
-        transform: translate(-290%,50%);
+
+    .footertxt {
+        transform: translate(-335%, 50%);
     }
 }
