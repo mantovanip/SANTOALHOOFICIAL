@@ -450,7 +450,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .footertxt {
-        transform: translate(35%, -150%);
+        transform: translate(30%, -150%);
         text-align: center;
     }
 
