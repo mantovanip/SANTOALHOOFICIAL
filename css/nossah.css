@@ -312,27 +312,29 @@ body::-webkit-scrollbar-thumb {
         background-size: cover;
         max-width: 240px;
         max-height: 300px;
-        transform: translate(-15%, -5%);
+        transform: translate(-20%, -5%);
     }
 
     #retanguloprop {
         width: 250px;
         height: 310px;
-        transform: translate(-12%, -1%);
+        transform: translate(-18%, -1%);
     }
 
     #nossaHistoria {
-        transform: translate(-92%, -250%);
+        transform: translate(-102%, -250%);
         text-align: justify;
         line-height: normal;
-        font-size: 2.5rem;
+        font-size: 2.3rem;
+        width: 350px;
+
     }
 
     .historia {
-        width: 380px;
+        width: 350px;
         height: 400px;
-        font-size: 1.3rem;
-        transform: translate(-102%, 70%);
+        font-size: 1.1rem;
+        transform: translate(-110%, 70%);
         text-align: center;
         line-height: normal;
 
