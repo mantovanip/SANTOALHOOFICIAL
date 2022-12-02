@@ -221,7 +221,7 @@ body::-webkit-scrollbar-thumb {
 
     .btn {
 
-        transform: translate(20%, 360%);
+        transform: translate(15%, 360%);
         box-sizing: border-box;
         background: #000000;
         color: #ffffff;
