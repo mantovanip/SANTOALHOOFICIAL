@@ -199,7 +199,7 @@ a {
 
 /*scrollbar*/
 body::-webkit-scrollbar {
-    width: 12px;
+    width: 8px;
     /* width of the entire scrollbar */
 }
 
