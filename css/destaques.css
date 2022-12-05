@@ -444,19 +444,19 @@ body::-webkit-scrollbar-thumb {
 @media (min-width: 1420px) and (max-width:1920px) {
     .retangulolocalone {
 
-        transform: translate(190%, 7%);
+        transform: translate(160%, 7%);
     }
 
     .retangulolocalthree {
-        transform: translate(-176%, 7%);
+        transform: translate(-146%, 7%);
 
     }
 
     .topedindo {
-        transform: translate(-250%, 10%);
+        transform: translate(-205%, 10%);
     }
 
     .footertxt {
-        transform: translate(-290%, 50%);
+        transform: translate(-250%, 50%);
     }
 }

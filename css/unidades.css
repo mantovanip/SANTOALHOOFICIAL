@@ -356,29 +356,29 @@ body::-webkit-scrollbar-thumb {
 @media (min-width: 1420px) and (max-width:1920px) {
     .imgmap1 {
         max-width: 410px;
-        transform: translate(10%, 1%);
+        transform: translate(-50%, 1%);
     }
 
     .imgmap2 {
         max-width: 410px;
-        transform: translate(50%, -1%);
+        transform: translate(15%, -1%);
     }
 
     .text-map-1 {
         font-size: 1.5rem;
-        transform: translate(10%, 50%);
+        transform: translate(-50%, 50%);
     }
 
     .text-map-2 {
         font-size: 1.5rem;
-        transform: translate(50%, 50%);
+        transform: translate(15%, 50%);
     }
 
     .topedindo {
-        transform: translate(-250%, 10%);
+        transform: translate(-220%, 10%);
     }
 
     .footertxt {
-        transform: translate(-290%, 50%);
+        transform: translate(-260%, 50%);
     }
 }
