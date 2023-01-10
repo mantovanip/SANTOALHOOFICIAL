@@ -19,97 +19,13 @@ body {
 
 /* BARRA NAV */
 .top-nav {
-    height: 75px;
+    height: 15px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-evenly;
     background: black;
-    color: #FFF;
-    text-decoration: none;
+
 }
 
-/* MENU HAMBURGUER */
-.menu,
-a {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    color: #ffff;
-    text-decoration: none;
-    font-size: 1.4rem;
-}
-
-.menu1:hover,
-.menu2:hover,
-.menu3:hover,
-.menu4:hover {
-    color: #E85910;
-}
-
-.menu5 {
-    color: transparent;
-    display: none;
-}
-
-.menu>li {
-    margin: 0 1rem;
-    overflow: hidden;
-}
-
-.menu-button-container {
-    display: none;
-    height: 100%;
-    width: 30px;
-    cursor: pointer;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#menu-toggle {
-    display: none;
-}
-
-.menu-button,
-.menu-button::before,
-.menu-button::after {
-    display: block;
-    background-color: #E85910;
-    position: absolute;
-    height: 3px;
-    width: 35px;
-    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    border-radius: 2px;
-    right: 25px;
-}
-
-.menu-button::before {
-    content: '';
-    margin-top: -8px;
-    left: 1px;
-}
-
-.menu-button::after {
-    content: '';
-    margin-top: 8px;
-    left: 1px;
-}
-
-#menu-toggle:checked+.menu-button-container .menu-button::before {
-    margin-top: 0px;
-
-    transform: rotate(405deg);
-}
-
-
-
-#menu-toggle:checked+.menu-button-container .menu-button::after {
-    margin-top: 0px;
-    transform: rotate(-405deg);
-}
 
 .imglocal {
     width: 100%;
@@ -117,30 +33,24 @@ a {
     padding: 0;
     margin: 0;
     object-position: 50% 50%;
-    background-image: url(/img/local.jpg);
+    background-image: url(/img/local2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    border: 70px solid black;
+    border: 50px solid black;
 }
 
-.logo {
-    width: 20vh;
-    transform: translate(-50%, 32%);
+#logo {
+    width: 50vh;
+    transform: translate(0%, 72%);
 }
 
-.logoredonda {
-    max-width: 180px;
-    transform: translate(280%, 50%);
-}
 
 /* BOTOES */
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.btn {
+
+
+.btn1 {
     box-sizing: border-box;
     background: #000000;
     color: #ffffff;
@@ -148,7 +58,6 @@ a {
     text-decoration: none;
     text-transform: none;
     vertical-align: middle;
-    flex: 150px;
     text-indent: 30px;
     display: flex;
     margin: 10px 50px;
@@ -157,17 +66,48 @@ a {
     padding-right: 0px;
     max-width: 230px;
     line-height: 55px;
-    transform: translate(5%, 550%);
     position: relative;
     cursor: pointer;
+    transform: translate(100%,550%);
+
 }
 
-.btn:hover {
-    background: #be3803;
+.btn1:hover {
+    background: #e81010;
     color: #000000;
 }
 
-.btn:active {
+.btn1:active {
+    background: #365c1b;
+}
+
+.btn2 {
+    box-sizing: border-box;
+    background: #000000;
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: none;
+    vertical-align: middle;
+    text-indent: 30px;
+    display: flex;
+    margin: 10px 50px;
+    padding: 7px;
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 230px;
+    line-height: 55px;
+    position: relative;
+    cursor: pointer;
+    transform: translate(300%,400%);
+}
+
+.btn2:hover {
+    background: #e81010;
+    color: #000000;
+}
+
+.btn2:active {
     background: #365c1b;
 }
 
@@ -186,8 +126,8 @@ a {
 }
 
 
-.topedindo {
-    transform: translateX(-170%);
+#topedindo {
+    transform: translateX(-70%);
     margin-top: 35px;
 }
 
@@ -209,7 +149,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #E85910;
+    background-color: #e81010;
     /* color of the scroll thumb */
     border-radius: 20px;
     /* roundness of the scroll thumb */
@@ -219,9 +159,29 @@ body::-webkit-scrollbar-thumb {
 @media (min-width: 290px) and (max-width: 370px) {
   
 
-    .btn {
+    .btn1 {
 
-        transform: translate(15%, 360%);
+        box-sizing: border-box;
+        background: #000000;
+        color: #ffffff;
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: none;
+        vertical-align: middle;
+        flex: 150px;
+        text-indent: 35px;
+        display: flex;
+        padding: 2px;
+        padding-left: 0px;
+        padding-right: 0px;
+        max-width: 180px;
+        line-height: 35px;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .btn2 {
+
         box-sizing: border-box;
         background: #000000;
         color: #ffffff;
@@ -256,75 +216,16 @@ body::-webkit-scrollbar-thumb {
     }
 
     .logo {
-        width: 23vh;
+        width: 3vh;
         transform: translate(30%, 105%);
     }
 
-    .logoredonda {
-        display: none;
-    }
-
-    .menu-button-container {
-        display: flex;
-    }
-
-    .menu {
-        position: absolute;
-        top: 0;
-        margin-top: 60px;
-        left: 0;
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        margin-left: -40px;
-        padding-left: 90px;
-        transition: transform 0.5s ease-in-out;
-        z-index: 2;
-        opacity: 95%;
-
-    }
-
-    .menu5 {
-        color: #000000;
-        display: flex;
-    }
-
-    #menu-toggle~.menu li {
-        height: 0;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    }
-
-    #menu-toggle:checked~.menu li {
-        height: 3.9em;
-        width: 90em;
-        line-height: 70px;
-        text-align: center;
-        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    }
-
-    .menu>li {
-        display: flex;
-        justify-content: center;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        background-color: rgb(255, 255, 255);
-
-    }
-
-    a {
-        color: rgba(0, 0, 0, 0.945);
-    }
-
+   
     #banner {
         display: inline-block;
     }
 
-    .topedindo {
+    #topedindo {
         margin: auto;
         transform: translate(40%, 90%);
         display: inline-block;
@@ -338,16 +239,14 @@ body::-webkit-scrollbar-thumb {
         font: status-bar;
     }
 
-    .midias {
-        display: none;
-    }
+ 
 }
 
 @media (min-width: 370px) and (max-width: 800px) {
  
 
 
-    .btn {
+    .btn1 {
 
         position: relative;
         display: inline;
@@ -356,9 +255,20 @@ body::-webkit-scrollbar-thumb {
         font-size: 15px;
         max-width: 250px;
         line-height: 38px;
-        transform: translate(13%, 450%);
+        
     }
+    .btn2 {
 
+        position: relative;
+        display: inline;
+        vertical-align: auto;
+        text-indent: 55px;
+        font-size: 15px;
+        max-width: 250px;
+        line-height: 38px;
+        transform: translate(25%, 100%);
+
+    }
     .top-nav {
         height: 80px;
     }
@@ -373,80 +283,18 @@ body::-webkit-scrollbar-thumb {
 
     }
 
-    .logo {
+    #logo {
         width: 25vh;
         transform: translate(25%, 100%);
     }
 
-    .logoredonda {
-        display: none;
-    }
-
-    .menu-button-container {
-        display: flex;
-    }
-
-    .menu {
-        position: absolute;
-        top: 0;
-        margin-top: 50px;
-        left: 0;
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        margin-left: -40px;
-        padding-left: 90px;
-        transition: transform 0.5s ease-in-out;
-        z-index: 2;
-        opacity: 95%;
-
-    }
-
-    .menu5 {
-        color: #000000;
-        display: flex;
-    }
-
-    #menu-toggle~.menu li {
-        height: 0;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    }
-
-    #menu-toggle:checked~.menu li {
-        height: 3.9em;
-        width: 90em;
-        line-height: 70px;
-        text-align: center;
-        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    }
-
-    .menu>li {
-
-        display: flex;
-        justify-content: center;
-        margin: 0;
-        padding: 0.5em 0;
-        width: 100%;
-        background-color: rgb(255, 255, 255);
-    }
-
-    a {
-        color: rgb(0, 0, 0);
-    }
-
-    .menu>li:not(:last-child) {
-        border-bottom: 1px solid #444;
-    }
+ 
 
     #banner {
         display: inline-block;
     }
 
-    .topedindo {
+    #topedindo {
         margin: auto;
         transform: translate(50%, 110%);
         display: inline-block;
@@ -457,10 +305,7 @@ body::-webkit-scrollbar-thumb {
         text-align: center;
     }
 
-    .midias {
-        display: none;
-    }
-
+    
 }
 
 @media (min-width: 1280px) and (max-width:1420px) {
@@ -469,13 +314,11 @@ body::-webkit-scrollbar-thumb {
         transform: translate(-100%, 30%);
     }
 
-    .logoredonda {
-        max-width: 180px;
-        transform: translate(280%, 50%);
+    .btn1 {
+        transform: translate(100%, 550%);
     }
-
-    .btn {
-        transform: translate(-5%, 550%);
+    .btn2 {
+        transform: translate(285%,399%);
     }
 
     .topedindo {
@@ -490,24 +333,23 @@ body::-webkit-scrollbar-thumb {
 
 @media (min-width: 1420px) and (max-width:1920px) {
     .logo {
-        width: 17vh;
-        transform: translate(-150%, 30%);
+        width: 15vh;
+        transform: translate(-150%, 10%);
+    }
+    .btn1 {
+        transform: translate(150%, 550%);
+    }
+    
+    .btn2 {
+        transform: translate(450%, 400%);
     }
 
-    .logoredonda {
-        max-width: 230px;
-        transform: translate(330%, 50%);
-    }
 
-    .btn {
-        transform: translate(50%, 550%);
-    }
-
-    .topedindo {
-        transform: translate(-205%, 10%);
+    #topedindo {
+        transform: translate(-95%, 10%);
     }
 
     .footertxt {
-        transform: translate(-290%, 50%);
+        transform: translate(-345%, 50%);
     }
 }
